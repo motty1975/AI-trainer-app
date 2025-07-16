@@ -191,8 +191,10 @@ const AILearningApp: React.FC = () => {
     };
 
     const handleReset = () => {
-        if (confirm('全てのデータをリセットしますか？この操作は取り消せません。')) {
+        // confirm() の代わりに、window.confirm() を使う
+        if (window.confirm('全てのデータをリセットしますか？この操作は取り消せません。')) {
             localStorage.clear();
+            // ... (以下、リセット処理は変更なし)
             setAiName('');
             setExp(0);
             setLevel(1);
