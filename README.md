@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+**あなたが名付け親となり、AIをゼロから育てる、全く新しいインタラクティブな教育体験。**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+これは、ReactとTypeScriptで構築された、AIの学習プロセスをシミュレートするWebアプリケーションです。
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo (公開サイト)
 
-### `npm start`
+以下のURLから、実際にアプリを体験できます。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**(https://hilarious-hamster-0c6932.netlify.app/)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ このプロジェクトの目的
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+AIという言葉は知っていても、その中身が「ブラックボックス」で、何だか難しそう、と感じている方は少なくありません。
+このアプリは、そんな方々のために、**AIの学習の根源的な仕組み**を、**「AIの赤ちゃんを育てる」**という、親しみやすいゲーム感覚の体験を通じて、直感的に理解してもらうことを目的としています。
 
-### `npm run build`
+### 🎓 このアプリで学べること
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   **教師あり学習:** 人間が「正解（ラベル）」を教えることで、AIが賢くなるプロセスを体験できます。
+*   **教師なし学習:** 正解がないデータの中から、AIが自ら「パターン（特徴）」を見つけ出し、仲間分け（クラスタリング）する様子を観察できます。
+*   **汎化性能:** 学習した知識を応用して、AIが**「未知のデータ」**を推論する、AIの真の賢さを目の当たりにできます。
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌟 主な機能
 
-### `npm run eject`
+*   **AIの命名:** あなたが名付け親になることで、AIとの間に特別な絆が生まれます。
+*   **RPG風の成長システム:** 学習を進めることで、AIがレベルアップし、見た目やセリフが「進化」します。
+*   **モード切替:** 「学習」「テスト」「分析」の3つのモードを、いつでも自由に切り替えて、自分のペースで学習を進められます。
+*   **永続的な記憶:** あなたが教えた知識は、ブラウザの`LocalStorage`に保存され、次に訪れた時も、AIはあなたのことを覚えています。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ 使用技術 (Tech Stack)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+*   **フロントエンド:**
+    *   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+    *   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    *   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"> （※もし`create-react-app`のデフォルトCSS以外を使うなら）
+*   **アイコン:**
+    *   Lucide React
+*   **デプロイメント:**
+    *   <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
+*   **バージョン管理:**
+    *   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+    *   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 今後の展望 (Roadmap)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+このプロジェクトは、まだ始まったばかりです。将来的には、以下の機能の追加を構想しています。
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] ユーザーによる画像アップロード機能
+- [ ] AIとの自由対話機能
+- [ ] 新しい学習科目（乗り物、食べ物など）の追加
+- [ ] 学習履歴や正答率の、より詳細なグラフ表示
+
+---
+
+## 📬 連絡先
+
+ご意見、ご感想、お仕事のご依頼などは、以下のポートフォリオサイトからお気軽にご連絡ください。
+
+*   **[山本 倫久 ポートフォリオサイト](https://chromachannel.online/)**
