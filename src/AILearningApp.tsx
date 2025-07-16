@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ChangeEvent } from 'react';
-import { Bot, Brain, BookOpen, BarChart3, Upload, RotateCcw, Star, Trophy, Heart } from 'lucide-react';
+import { Brain, BookOpen, BarChart3, RotateCcw, Star, } from 'lucide-react';
 
 // ===== TypeScriptのための「型」定義 =====
 interface LearningItem {
